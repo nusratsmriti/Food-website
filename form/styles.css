@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.food-image img {
+    max-width: 300px;
+    object-fit: cover;
+}
+
+.login-box {
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.textbox {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.alt-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.alt-login p {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: #ff5722;
+    text-decoration: none;
+}

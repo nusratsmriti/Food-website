@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ramaraja&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Titillium+Web:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carlito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+* {
+   margin: 0px;
+}
+span {
+   color: rgb(241, 86, 19);
+}
+.logo {
+   width: 385px;
+   height: 31px;
+   flex-shrink: 0;
+   color: #fbfada;
+   font-family: "Lexend Zetta";
+   font-size: 50px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   padding-top: 15px;
+
+   padding-left: 100px;
+}
+header {
+   background-color: #161a23;
+}
+.nav-menu {
+   display: flex;
+   padding-left: 640px;
+   padding-bottom: 40px;
+}
+.nav-menu a {
+   text-decoration: none;
+   color: #fbfada;
+   padding-left: 60px;
+}
+.first-section {
+   background-color: #1a3636;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-top: 40px;
+   margin-left: 120px;
+   margin-right: 120px;
+   border-radius: 25px;
+}
+.first-section-info h3 {
+   font-family: "Sansita Swashed", system-ui;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;
+   color: #fbfada;
+   text-align: center;
+   font-size: 70px;
+   color: #fbfada;
+   padding-top: 100px;
+}
+
+.first-section-image {
+   padding: 20px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   row-gap: 30px;
+   column-gap: 20px;
+   padding: 30px;
+}
+.first-section-image img {
+   width: 300px;
+   height: 200px;
+   border-radius: 10px;
+}
+.second-section {
+   background-color: #b7b597;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-top: 40px;
+   margin-left: 70px;
+   margin-right: 70px;
+}
+.second-section-info {
+   padding-top: 60px;
+   padding-bottom: 20px;
+   padding-left: 40px;
+   margin-bottom: 20px;
+}
+.second-section-info h1 {
+   color: #060505;
+   font-family: Lato;
+   font-size: 60px;
+   font-style: normal;
+   font-weight: 500;
+   text-transform: uppercase;
+}
+.second-section-info h3 {
+   color: #121111;
+   font-family: Lato;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 500;
+}
+.second-section-info p {
+   color: #0f0e0e;
+   font-family: Lato;
+   font-size: 20px;
+   font-style: normal;
+}
+.second-section-image {
+   padding-top: 50px;
+   padding-left: 30px;
+}
+
+.second-section-image img {
+   width: 700px;
+   height: 400px;
+}
+.third-section {
+   margin-left: 70px;
+   margin-right: 70px;
+   margin-top: 60px;
+}
+.third-section-title h1 {
+   font-family: "Ramaraja", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 100px;
+   text-align: center;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+}
+.food-items {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   row-gap: 20px;
+   column-gap: 20px;
+}
+.food-item {
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+   padding-left: 15px;
+}
+.food-item img {
+   width: 300px;
+   height: 200px;
+   padding-top: 15px;
+}
+.star-part {
+   margin-right: 10px;
+   display: flex;
+   padding-top: 10px;
+}
+.star-part i {
+   color: rgb(245, 195, 70);
+}
+.star-part div {
+   padding-left: 60px;
+   
+}
+.food-item h2 {
+   color:black
+   font-family: "Lato", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+.star-part p{
+   color: rgb(229, 18, 18);
+}
+.star{
+   font-size: 18px;
+}
+
+.cart-button {
+   margin: 0px;
+   position: relative;
+   padding: 10px;
+   width: 300px;
+   height: 40px;
+   border: 0;
+   border-radius: 10px;
+   background-color: #be0909;
+   outline: none;
+   cursor: pointer;
+   color: #fff;
+   transition: .3s ease-in-out;
+   overflow: hidden;
+   margin-top: 10px;
+   margin-bottom: 20px;
+ }
+ .cart-button:hover {
+   background-color: #e47419;
+ }
+ .cart-button:active {
+   transform: scale(.9);
+ }
+ 
+ .cart-button .fa-shopping-cart {
+   position: absolute;
+   z-index: 2;
+   top: 50%;
+   left: -10%;
+   font-size: 2em;
+   transform: translate(-50%,-50%);
+ }
+ .cart-button .fa-box {
+   position: absolute;
+   z-index: 3;
+   top: -20%;
+   left: 52%;
+   font-size: 1.2em;
+   transform: translate(-50%,-50%);
+ }
+ .cart-button span {
+   position: absolute;
+   z-index: 3;
+   left: 50%;
+   top: 50%;
+   font-size: 1.2em;
+   color: #fff;
+   transform: translate(-50%,-50%);
+ }
+ .cart-button span.add-to-cart {
+   opacity: 1;
+ }
+ .cart-button span.added {
+   opacity: 0;
+ }
+ 
+ .cart-button.clicked .fa-shopping-cart {
+   animation: cart 1.5s ease-in-out forwards;
+ }
+ .cart-button.clicked .fa-box {
+   animation: box 1.5s ease-in-out forwards;
+ }
+ .cart-button.clicked span.add-to-cart {
+   animation: txt1 1.5s ease-in-out forwards;
+ }
+ .cart-button.clicked span.added {
+   animation: txt2 1.5s ease-in-out forwards;
+ }
+ .shopping{
+   padding-right: 5px;
+   font-family: 20px;
+ }
+ @keyframes cart {
+   0% {
+     left: -10%;
+   }
+   40%, 60% {
+     left: 50%;
+   }
+   100% {
+     left: 110%;
+   }
+ }
+ @keyframes box {
+   0%, 40% {
+     top: -20%;
+   }
+   60% {
+     top: 40%;
+     left: 52%;
+   }
+   100% {
+     top: 40%;
+     left: 112%;
+   }
+ }
+ @keyframes txt1 {
+   0% {
+     opacity: 1;
+   }
+   20%, 100% {
+     opacity: 0;
+   }
+ }
+ @keyframes txt2 {
+   0%, 80% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+
+ .section-fourth-info{
+   text-align: center;
+   margin-top: 60px;
+   margin-bottom: 10px;
+ }
+ .section-fourth-info h2 {
+   font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-size: 60px;
+  font-weight: <weight>;
+  font-style: normal;
+
+ }
+ .section-fourth-info h5{
+   font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+
+ }
+ .chefs{
+   display: grid;
+  grid-template-columns: repeat(4,1fr);
+  background-color: #EEEDEB;
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 50px;
+
+
+ }
+ .chef {
+  width: 240px;
+  /* height: 300px; */
+   background-color: #f0dbd2;
+   box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+   border-radius: 25px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   padding-bottom: 15px;
+ }
+ .chef h2{
+   font-family: "Bodoni Moda", serif;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;
+
+ }
+ .chef h2,p,i { 
+   padding: 3px;
+
+ }
+ .section-fourth{
+margin-left: 150px;
+margin-right: 150px;
+}
+.chef img{
+  width: 120px;
+  height: 190px;
+}
+.section-five{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 60px;
+}
+.section-five h3{
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  mar
+}
+.section-five img{
+  height: 70px;
+  width: 100px;
+}
+.icons{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  padding-top: 10px;
+}
+.icon{
+  width: 270px;
+  text-align: center;
+  
+}
+.icon  h2 {
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+}
+.icon  p{
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+}
+
+
+/* footer styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-content p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+
+
